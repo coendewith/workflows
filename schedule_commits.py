@@ -47,7 +47,7 @@ def schedule_commits():
     with open("commit_schedule.sh", "w") as f:
         for commit_time in commit_times:
             cron_time = datetime.strptime(commit_time, "%H:%M")
-            f.write(f"{cron_time.minute} {cron_time.hour} * * * /path/to/your/venv/bin/python /path/to/your/script/make_commit.py\n")
+            f.write(f"{cron_time.minute} {cron_time.hour} * * * /usr/bin/python3 /home/pi/workflows/make_commit.py\n")
 
 def main():
     schedule_commits()
