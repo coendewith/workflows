@@ -1,17 +1,10 @@
 import os
 import random
 from datetime import datetime
-from github import Github
 
 # Configuration
-REPO_PATH = '/home/pi/workflows'
-GITHUB_TOKEN = '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'
-REPO_NAME = 'coendewith/workflows'
+REPO_PATH = '/home/pi/workflows'  # Update this path if necessary
 COMMIT_MESSAGE = 'Daily commit'
-
-# Initialize GitHub object
-g = Github(GITHUB_TOKEN)
-repo = g.get_repo(REPO_NAME)
 
 def make_random_commit():
     os.chdir(REPO_PATH)
