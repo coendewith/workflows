@@ -1,5 +1,6 @@
 import os
 import random
+import uuid
 from datetime import datetime
 
 # Configuration
@@ -12,7 +13,8 @@ def make_random_commit():
     # Create a new file or modify an existing one
     file_name = f'file_{random.randint(1, 100)}.txt'
     with open(file_name, 'w') as file:
-        file.write(f'This is a random commit at {datetime.now()}')
+        # Write a UUID and the current timestamp
+        file.write(f'{uuid.uuid4()} at {datetime.now()}')
     
     # Git add, commit, and push
     os.system('git add .')
