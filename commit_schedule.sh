@@ -1,1 +1,1 @@
-1 19 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
+45 11 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
