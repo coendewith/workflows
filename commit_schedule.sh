@@ -1,9 +1,4 @@
-20 9 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-38 17 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-31 9 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-33 13 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-20 13 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-3 15 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-27 17 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-58 18 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
-52 15 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
+45 10 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
+48 14 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
+44 23 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
+55 15 * * * /usr/bin/python3 /home/pi/workflows/make_commit.py
